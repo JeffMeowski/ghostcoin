@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ghost-coin.exe</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #282c34;
+            color: white;
+            font-family: Arial, sans-serif;
+            overflow-x: hidden; 
+        }
+
+        header {
+            width: 100%;
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+            height: 150px;
+            font-family: 'Courier New', monospace;
+            white-space: pre;
+            overflow: auto;
+        }
+
+        main {
+            width: 80%;
+            max-width: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+        canvas {
+            border: 1px solid white;
+            width: 100%;
+            max-width: 100%;
+        }
+
+        footer {
+            width: 100%;
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <pre>
+
+░██████╗░██╗░░██╗░█████╗░░██████╗████████╗░░░░░░░█████╗░░█████╗░██╗███╗░░██╗
+██╔════╝░██║░░██║██╔══██╗██╔════╝╚══██╔══╝░░░░░░██╔══██╗██╔══██╗██║████╗░██║
+██║░░██╗░███████║██║░░██║╚█████╗░░░░██║░░░█████╗██║░░╚═╝██║░░██║██║██╔██╗██║
+██║░░╚██╗██╔══██║██║░░██║░╚═══██╗░░░██║░░░╚════╝██║░░██╗██║░░██║██║██║╚████║
+╚██████╔╝██║░░██║╚█████╔╝██████╔╝░░░██║░░░░░░░░░╚█████╔╝╚█████╔╝██║██║░╚███║
+░╚═════╝░╚═╝░░╚═╝░╚════╝░╚═════╝░░░░╚═╝░░░░░░░░░░╚════╝░░╚════╝░╚═╝╚═╝░░╚══╝
+</pre>
+    </header>
+    <main>
+        <canvas></canvas>
+    </main>
+    <footer>
+        <p>by Jeff Meowski</p>
+    </footer>
+    <script src="game.js"></script>
+</body>
+</html>
